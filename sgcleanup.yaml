@@ -157,7 +157,7 @@ Resources:
     DependsOn:
       - SecurityGroupServiceRoleDefaultPolicy
       - SecurityGroupServiceRole
-  SecurityGrouptAllowEventRuleremoveunusedsecuritygroupsdeleteunusedsgs     
+  SecurityGrouptAllowEventRuleremoveunusedsecuritygroupsdeleteunusedsgs:
     Type: 'AWS::Lambda::Permission'
     Properties:
       Action: 'lambda:InvokeFunction'
